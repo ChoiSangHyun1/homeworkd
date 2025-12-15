@@ -1,1 +1,5 @@
-# do_it_django_atoz_2020_09
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
